@@ -1,0 +1,5 @@
+{
+  "**/*": ["prettier --write --ignore-unknown"],
+  "src/**/*.js": ["eslint --fix --max-warnings 0"],
+  "migrations/*.sql": ["squawk"]
+}
