@@ -5,7 +5,7 @@
     "husky": "^8.0.0",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.3",
-    "squawk-cli": "^0.19.0"
+    "squawk-cli": "^0.24.0"
   },
   "scripts": {
     "lint": "prettier --check . && eslint --ext .js ./src && squawk $(find ./migrations -type f)",
